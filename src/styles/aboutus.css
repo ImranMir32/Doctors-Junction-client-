@@ -1,0 +1,57 @@
+/* about.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.about-content {
+  flex: 1;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-content {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-heading {
+    font-size: 2em;
+  }
+
+  .about-content {
+    font-size: 0.9em;
+  }
+}

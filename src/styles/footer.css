@@ -1,0 +1,22 @@
+@import url(app.css);
+
+.footer {
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: black;
+  padding: 0.3rem 0;
+}
+
+.footer-bottom a {
+  color: #166ce4;
+  font-weight: bolder;
+}

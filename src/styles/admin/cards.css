@@ -1,0 +1,65 @@
+/* cards.css */
+
+.card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Space between image and details */
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.right {
+  flex: 1; /* Take remaining space */
+}
+
+/* .card-details {
+  text-align: left;
+} */
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .left {
+    justify-content: center; /* Center image horizontally */
+    margin-right: 0; /* Remove margin between image and details */
+    margin-bottom: 20px; /* Space between image and details */
+  }
+
+  .profile-image {
+    margin: auto; /* Center image vertically */
+  }
+}
