@@ -12,6 +12,10 @@ const DoctorCard = ({ ele }) => {
     if (token === "") {
       return toast.error("You must log in first");
     }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // This makes the scrolling smooth
+    });
     setModalOpen(true);
   };
 

@@ -45,7 +45,7 @@ const Requests = () => {
       <Navbar />
 
       <section className="container notif-section">
-        <h2 className="page-heading">Your Appointments</h2>
+        <h2 className="page-heading">Patient Appointment Requests</h2>
 
         {requestAppoinmentList.length > 0 ? (
           <div className="appointments">
